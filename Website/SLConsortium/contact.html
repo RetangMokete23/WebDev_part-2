@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SL Consortium</title>
+    <meta name="description" content="Contact SL Consortium — office locations in Polokwane and Seshego, phone, email and a contact form.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png"
+                 srcset="images/logo-180.png 180w, images/logo.png 353w"
+                 sizes="70px"
+                 width="353" height="200"
+                 alt="SL Consortium logo">
+            <div class="logo-text">
+                <h1>SL Consortium</h1>
+                <span class="tagline">Moving Forward</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <h2>Contact Us</h2>
+        </section>
+
+        <!-- Two office locations (2-column grid on desktop, stacked on mobile) -->
+        <section class="locations">
+            <div class="location">
+                <h3>Polokwane Office</h3>
+                <p>21 Landdros Mare Street, Polokwane Central, Polokwane, 0699</p>
+                <p>Phone: 015 291 0427</p>
+                <p>Email: <a href="mailto:info@slconsortium.co.za">info@slconsortium.co.za</a></p>
+            </div>
+
+            <div class="location">
+                <h3>Seshego Office</h3>
+                <p>Stand 2345, Zone 1, Seshego, Capricorn District, 0742</p>
+                <p>Phone: 015 223 0427</p>
+                <p>Email: <a href="mailto:seshego@slconsortium.co.za">seshego@slconsortium.co.za</a></p>
+            </div>
+        </section>
+
+        <!-- Embedded Google Map showing the Polokwane office location -->
+        <section class="map">
+            <h3>Find Us</h3>
+            <div class="map-embed">
+                <iframe title="Map showing the SL Consortium Polokwane office"
+                    src="https://maps.google.com/maps?q=Landdros%20Mare%20Street%2C%20Polokwane%2C%20South%20Africa&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Contact form -->
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SL Consortium. All rights reserved.</p>
+        <p>NCR Registration Number: NCRDC4427</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
